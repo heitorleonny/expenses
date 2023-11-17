@@ -17,8 +17,11 @@ class TransactionList extends StatelessWidget {
             'Nenhuma Transação Cadastrada!',
             style: Theme.of(context).textTheme.titleLarge,
           ),
-          Image.asset('assets/images/waiting.png',
-          fit: BoxFit.cover),
+          Container(
+            height: 200,
+            child: Image.asset('assets/images/waiting.png',
+            fit: BoxFit.cover),
+          ),
           
           
         ],
